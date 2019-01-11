@@ -1,4 +1,4 @@
-# ndn-lite-application-for-nRF52840-BLE_version
+# ndn-lite-application-for-nRF52840-802154_version
 This is an applicatione example to show how to 802.15.4 face in ndn-lite. Specifically, the application runs in the development boards and provides basic NDN communication and simple control function between two boards.
 ## Requeriments:
     2 nRF52840 DKs
