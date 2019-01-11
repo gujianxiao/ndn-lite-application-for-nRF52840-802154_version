@@ -1,7 +1,7 @@
 Output/ndn_lite_nRF52840_example\ Debug/Obj/main.o: \
- /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-BLE_version/Application/main.c \
- /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-BLE_version/Application/app-init-files/app_definitions.h \
- /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-BLE_version/Application/app-init-files/app_initialization_functions.h \
+ /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-802154_version/Application/main.c \
+ /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-802154_version/Application/app-init-files/app_definitions.h \
+ /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-802154_version/Application/app-init-files/app_initialization_functions.h \
  /usr/share/segger_embedded_studio_for_arm_4.10a/include/stdbool.h \
  /usr/share/segger_embedded_studio_for_arm_4.10a/include/stdint.h \
  /usr/share/segger_embedded_studio_for_arm_4.10a/include/string.h \
@@ -92,9 +92,9 @@ Output/ndn_lite_nRF52840_example\ Debug/Obj/main.o: \
  ../../../nRF5_SDK_15.2.0_9412b96/modules/nrfx/drivers/nrfx_errors.h \
  ../../../nRF5_SDK_15.2.0_9412b96/components/boards/pca10056.h \
  ../../../nRF5_SDK_15.2.0_9412b96/components/libraries/button/app_button.h \
- /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-BLE_version/Application/app-init-files/app_definitions.h \
+ /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-802154_version/Application/app-init-files/app_definitions.h \
  ../../ndn-lite/adaptation/ndn-nrf-ble-adaptation/logger.h \
- /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-BLE_version/Application/hardcoded-experimentation.h \
+ /home/bo/ndn-iot-package-over-nordic-sdk/examples/ndn-lite-application-for-nRF52840-802154_version/Application/hardcoded-experimentation.h \
  ../../ndn-lite/app-support/bootstrapping/secure-sign-on-files/secure-sign-on/variants/basic/sign-on-basic-client-consts.h \
  ../../ndn-lite/app-support/bootstrapping/secure-sign-on-files/secure-sign-on/variants/basic/variants/ecc_256/sign-on-basic-ecc-256-consts.h \
  ../../ndn-lite/app-support/bootstrapping.h \
@@ -121,15 +121,16 @@ Output/ndn_lite_nRF52840_example\ Debug/Obj/main.o: \
  ../../ndn-lite/face/direct-face.h \
  ../../ndn-lite/face/../forwarder/face.h \
  ../../ndn-lite/face/../forwarder/../encode/name.h \
- ../../ndn-lite/face/ndn-nrf-ble-face.h \
+ ../../ndn-lite/forwarder/forwarder.h ../../ndn-lite/forwarder/pit.h \
+ ../../ndn-lite/forwarder/../encode/interest.h \
+ ../../ndn-lite/forwarder/face.h ../../ndn-lite/forwarder/fib.h \
+ ../../ndn-lite/face/ndn-nrf-802154-face.h \
+ ../../ndn-lite/face/../adaptation/ndn-nrf-802154-driver.h nrf_802154.h \
+ ../../nRF-IEEE-802.15.4-radio-driver/src/nrf_802154_config.h \
+ ../../nRF-IEEE-802.15.4-radio-driver/src/nrf_802154_types.h \
+ ../../nRF-IEEE-802.15.4-radio-driver/src/hal/nrf_radio.h \
  ../../ndn-lite/face/../forwarder/forwarder.h \
- ../../ndn-lite/face/../forwarder/pit.h \
- ../../ndn-lite/face/../forwarder/../encode/interest.h \
- ../../ndn-lite/face/../forwarder/face.h \
- ../../ndn-lite/face/../forwarder/fib.h \
- ../../ndn-lite/face/../adaptation/ndn-nrf-ble-adaptation/nrf-sdk-ble-ndn-lite-ble-unicast-transport/nrf-sdk-ble-ndn-lite-ble-unicast-transport.h \
- ../../ndn-lite/face/../adaptation/ndn-nrf-ble-adaptation/nrf-sdk-ble-advertising/nrf-sdk-ble-adv-defs.h \
- ../../ndn-lite/forwarder/forwarder.h \
+ ../../ndn-lite/adaptation/ndn-nrf-802154-driver.h \
  ../../../nRF5_SDK_15.2.0_9412b96/modules/nrfx/drivers/include/nrfx_gpiote.h \
  ../../../nRF5_SDK_15.2.0_9412b96/modules/nrfx/hal/nrf_gpiote.h \
  ../../../nRF5_SDK_15.2.0_9412b96/modules/nrfx/hal/nrf_gpio.h \
